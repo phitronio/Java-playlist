@@ -115,3 +115,17 @@ System.out.println("Happy Coding with **Java** and **Phitron**! 🎯✨");
 ```
 
 **#Phitron #Java #Programming #UniversityStudents #DiplomaStudents #Learning #Education**
+
+---
+
+## বিবরণ
+
+এই repository-টি Phitron-এর দ্বারা তৈরি একটি comprehensive Java programming course-এর জন্য, যা University এবং Diploma level-এর শিক্ষার্থীদের জন্য designed করা হয়েছে। এটি Java programming-এর fundamentals থেকে শুরু করে advanced topics পর্যন্ত একটি structured learning path প্রদান করে।
+
+এই repository-তে class materials, source code examples, assignments, এবং resources-এর একটি সম্পূর্ণ collection রয়েছে যা Java programming শেখার জন্য প্রয়োজনীয়। প্রতিটি module একটি specific topic-এর উপর focus করে এবং progressive learning approach অনুসরণ করে, যেখানে প্রতিটি module পূর্ববর্তী module-এর উপর নির্মিত।
+
+Repository-এর structure-টি carefully organized করা হয়েছে যাতে শিক্ষার্থীরা সহজেই navigate করতে পারে এবং তাদের learning journey-তে প্রয়োজনীয় resources খুঁজে পেতে পারে। প্রতিটি folder-এ README.md file রয়েছে যা সেই specific module-এর purpose, contents, এবং learning objectives-কে বিস্তারিতভাবে ব্যাখ্যা করে।
+
+এই course-টি Java Syntax এবং Basics থেকে শুরু করে Object-Oriented Programming, GUI Development, Exception Handling, File I/O Operations, এবং Collections Framework পর্যন্ত covering করে। Course-এর শেষে শিক্ষার্থীরা multiple Java concepts combine করে একটি mini-project তৈরি করবে, যা তাদের practical skills এবং theoretical knowledge-কে একত্রিত করবে।
+
+Repository-টি open-source এবং contribution-friendly, যেখানে শিক্ষার্থীরা assignments submit করতে পারে, code review পেতে পারে, এবং collaborative learning environment-এ অংশগ্রহণ করতে পারে। এটি modern software development practices যেমন version control, code review, এবং clean coding principles-এর সাথে শিক্ষার্থীদের পরিচিত করে তোলে।
