@@ -1,131 +1,105 @@
-# 📚 Java playlist for University/Diploma Students by Phitron
+# Java Playlist for University/Diploma Students (Phitron)
 
-Welcome to the **Java playlist for University/Diploma Students** GitHub repository by **Phitron**! 🚀 This repository contains all the **class materials**, **source code examples**, **assignments**, and **resources** for the Java programming course.
+Welcome to the Java learning repository by Phitron.  
+This repo contains topic-wise examples, notes, and practice code for beginners to intermediate learners.
 
-## 📖 **Course Overview**
-This course is designed to introduce you to the fundamentals of Java programming, including:
-- Java Syntax and Basics
-- Object-Oriented Programming
-- GUI Development
-- Exception Handling
-- File I/O Operations
-- Collections Framework
+## Course Focus
 
-By the end of the course, you'll build a **mini-project** combining multiple Java concepts.
+- Java syntax and programming fundamentals
+- Control flow and arrays
+- Classes, objects, encapsulation, inheritance, and interfaces
+- Packages and nested classes
+- File input/output
+- GUI development with Swing
 
-## 📂 **Repository Structure**
+## Current Repository Structure
 
+This repository currently includes modules `01` to `13`:
+
+```text
+01_Introduction_to_Java
+02_Data_Types_Variables_and_Operators
+03_control_statments
+04_arrays
+05_Classes_and_Objects
+06_Class_Members
+07_Encapsulation_and_Overloading
+08_Inheritance_and_Polymorphism
+09_Abstract_Classes_and_Interfaces
+10_packages_access_modifers
+11_nested_classes
+12_file_input_output
+13_GUI
 ```
-├── 01_Introduction_to_Java
-│   ├── HelloWorld.java
-│   ├── Setup_Instructions.md
-│   └── Notes.md
-├── 02_DataTypes_Variables_Operators
-│   ├── VariablesDemo.java
-│   ├── OperatorsDemo.java
-│   └── Notes.md
-├── ...
-├── 18_Final_Project
-│   ├── ProjectOverview.md
-│   ├── SampleProject.java
-│   └── Resources
-└── README.md
+
+## Module Highlights
+
+- `01_Introduction_to_Java`: Java basics, first program setup, and foundational syntax.
+- `02_Data_Types_Variables_and_Operators`: Primitive types, variable handling, and operators in practice.
+- `03_control_statments`: Conditional logic (`if/else`, `switch`) and loop patterns.
+- `04_arrays`: One-dimensional and multi-dimensional array fundamentals.
+- `05_Classes_and_Objects`: Class design, object creation, and core OOP structure.
+- `06_Class_Members`: Fields, methods, and member-level behavior inside classes.
+- `07_Encapsulation_and_Overloading`: Data hiding with encapsulation and method overloading concepts.
+- `08_Inheritance_and_Polymorphism`: Parent-child relationships and runtime polymorphic behavior.
+- `09_Abstract_Classes_and_Interfaces`: Abstraction design using abstract classes and interfaces.
+- `10_packages_access_modifers`: Package structure, access control, and modular code organization.
+- `11_nested_classes`: Inner/nested class usage and scope relationships.
+- `12_file_input_output`: File I/O with `FileReader`, `FileWriter`, `BufferedReader`, `BufferedWriter`, and `IOException`; includes bilingual tutorial and practice files.
+- `13_GUI`: Swing-based Notepad-style GUI (`JFrame`, `JTextArea`, menus, listeners), bilingual tutorial, and self-practice `Open`/`Save` tasks.
+
+## How to Run Java Files
+
+1. Install JDK (Java Development Kit).
+2. Open this repository in VS Code (or any IDE).
+3. Compile and run from terminal:
+
+```bash
+javac YourProgram.java
+java YourProgram
 ```
 
-- **Code Examples:** Java programs demonstrating each concept.
-- **Class Notes:** Summaries of key topics.
-- **Assignments:** Practical exercises to reinforce learning.
-- **Project Folder:** Final project documentation and source code.
+Example:
 
+```bash
+cd 12_file_input_output
+javac FileHandler.java
+java FileHandler
+```
 
-## 💻 **Setup Instructions**
-1. Install **Java Development Kit (JDK)**
-2. Install **Visual Studio Code (VS Code)**
-3. Install the **Java Extension Pack** for VS Code
-4. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/java-programming-course.git
-   ```
-5. Open the folder in VS Code.
-6. Open a terminal in VS Code and compile Java programs manually:
-   ```bash
-   javac YourProgram.java
-   java YourProgram
-   ```
-7. Focus on understanding how the **Java Compiler (javac)** works and gain familiarity with the **terminal** workflow.
+## Learning Approach
 
+- Read module `readme.md` first.
+- Run the Java files manually from terminal.
+- Modify code and test behavior.
+- Implement pending practice tasks (especially in GUI and file I/O modules).
 
-## 📅 **Course Modules**
-1. **Introduction to Java Programming**
-2. **Data Types, Variables, and Operators**
-3. **Control Statements**
-4. **Arrays in Java**
-5. **Classes and Objects**
-6. **Methods and Constructors**
-7. **Encapsulation and Overloading**
-8. **Inheritance and Polymorphism**
-9. **Abstract Classes and Interfaces**
-10. **Exception Handling**
-11. **Packages and Access Modifiers**
-12. **Nested Classes**
-13. **GUI Basics with Swing**
-14. **GUI Event Handling**
-15. **File Input/Output**
-16. **Collections Framework**
-17. **Advanced Collections Framework**
-18. **Final Review & Project**
+## Resources
 
-
-## 📚 **Resources**
 - [Official Java Documentation](https://docs.oracle.com/javase/)
-- [Visual Studio Code Setup Guide](https://code.visualstudio.com/)
+- [VS Code](https://code.visualstudio.com/)
 - [Java Extension Pack for VS Code](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-## 🤝 **Contribution Guidelines**
-- Follow proper naming conventions.
-- Submit assignments in the respective module folders.
-- **Fork this repository** to your own GitHub account.
-- Create a new branch from `main` using the following naming convention:
-   ```
-   yourname-assignment-moduleX
-   ```
-   Replace `yourname` with your GitHub username and `moduleX` with the respective module number.
-- Commit your assignment solutions to your branch.
-- Submit a **Pull Request (PR)** to the `main` branch of this repository.
-- **Your branch will not be directly merged into `main` without review.** The instructor will review your PR, provide feedback, and merge it if it meets the requirements.
-- Ensure your code follows clean coding practices and is well-documented.
+## Instructor Contact
 
-Example Branch Name:
-```bash
-johnsmith-assignment-module1
-```
-
-
-## 🧑‍💻 **Instructor Contact**
-- **Instructor Name:** [Md. Fatin Shadab Turja](https://github.com/FatinShadab)
-- **Email:** fatinshadab123@gmail.com
-
-
-## ⭐ **Star This Repository!**
-If you find this repository helpful, don't forget to **star** it!
-
----
-```
-System.out.println("Happy Coding with **Java** and **Phitron**! 🎯✨");
-```
-
-**#Phitron #Java #Programming #UniversityStudents #DiplomaStudents #Learning #Education**
+- **Md. Fatin Shadab Turja**: [GitHub](https://github.com/FatinShadab)
+- **Email**: fatinshadab123@gmail.com
 
 ---
 
-## বিবরণ
+## বাংলা বিবরণ
 
-এই repository-টি Phitron-এর দ্বারা তৈরি একটি comprehensive Java programming course-এর জন্য, যা University এবং Diploma level-এর শিক্ষার্থীদের জন্য designed করা হয়েছে। এটি Java programming-এর fundamentals থেকে শুরু করে advanced topics পর্যন্ত একটি structured learning path প্রদান করে।
+এই repository-টি University এবং Diploma level-এর শিক্ষার্থীদের জন্য Java শেখার একটি structured playlist।  
+এখানে topic অনুযায়ী code example, note, এবং practice task সাজানো আছে।
 
-এই repository-তে class materials, source code examples, assignments, এবং resources-এর একটি সম্পূর্ণ collection রয়েছে যা Java programming শেখার জন্য প্রয়োজনীয়। প্রতিটি module একটি specific topic-এর উপর focus করে এবং progressive learning approach অনুসরণ করে, যেখানে প্রতিটি module পূর্ববর্তী module-এর উপর নির্মিত।
+বর্তমানে `01` থেকে `13` পর্যন্ত module রয়েছে। বিশেষভাবে:
 
-Repository-এর structure-টি carefully organized করা হয়েছে যাতে শিক্ষার্থীরা সহজেই navigate করতে পারে এবং তাদের learning journey-তে প্রয়োজনীয় resources খুঁজে পেতে পারে। প্রতিটি folder-এ README.md file রয়েছে যা সেই specific module-এর purpose, contents, এবং learning objectives-কে বিস্তারিতভাবে ব্যাখ্যা করে।
+- `12_file_input_output`-এ File I/O (`FileReader`, `FileWriter`, `BufferedReader`, `BufferedWriter`, `IOException`) শেখানো হয়েছে।
+- `13_GUI`-এ Java Swing দিয়ে basic Notepad-type app শেখানো হয়েছে।
+- `12` এবং `13` module-এ bilingual (`English + Bangla`) tutorial যোগ করা হয়েছে।
 
-এই course-টি Java Syntax এবং Basics থেকে শুরু করে Object-Oriented Programming, GUI Development, Exception Handling, File I/O Operations, এবং Collections Framework পর্যন্ত covering করে। Course-এর শেষে শিক্ষার্থীরা multiple Java concepts combine করে একটি mini-project তৈরি করবে, যা তাদের practical skills এবং theoretical knowledge-কে একত্রিত করবে।
-
-Repository-টি open-source এবং contribution-friendly, যেখানে শিক্ষার্থীরা assignments submit করতে পারে, code review পেতে পারে, এবং collaborative learning environment-এ অংশগ্রহণ করতে পারে। এটি modern software development practices যেমন version control, code review, এবং clean coding principles-এর সাথে শিক্ষার্থীদের পরিচিত করে তোলে।
+শেখার ভালো উপায়:
+1. প্রতিটি module-এর `readme.md` পড়ুন
+2. কোড terminal থেকে compile/run করুন
+3. নিজে পরিবর্তন করে output দেখুন
+4. self-practice task (যেমন GUI `Open`/`Save`) implement করুন
